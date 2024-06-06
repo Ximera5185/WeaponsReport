@@ -1,18 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WeaponsReport
+﻿namespace WeaponsReport
 {
     internal class Soldier
     {
         public Soldier(string name, string weapon, string militaryRank, int servicePeriod)
         {
             Name = name;
+
             Weapon = weapon;
+
             MilitaryRank = militaryRank;
+
             ServicePeriod = servicePeriod;
         }
 

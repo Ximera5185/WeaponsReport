@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WeaponsReport
 {
@@ -10,6 +6,11 @@ namespace WeaponsReport
     {
         static void Main(string [] args)
         {
+            Database database = new Database();
+
+            database.GetDataSoldiers();
+
+            Console.ReadKey();
         }
     }
 }
